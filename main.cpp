@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -25,6 +26,6 @@ int main()
         i += 1;
     }
 
-    cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC;
+    cout << "time: " << float( clock () - begin_time ) / CLOCKS_PER_SEC << setprecision(100);
     return 0;
 }

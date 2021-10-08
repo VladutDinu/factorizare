@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1633701066 source:c:\users\unitbv\desktop\factorizare\factorizare\main.cpp
+1633701979 source:c:\users\unitbv\desktop\factorizare\factorizare\main.cpp
 	<iostream>
 	<time.h>
+	<bits/stdc++.h>
 
