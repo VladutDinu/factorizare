@@ -15,12 +15,10 @@ int main()
 
     const clock_t begin_time = clock();
     int i = 2;
-    int p = 1;
 
     while(n!=1){
         while(n%i==0){
             n /= i;
-            p *= i;
             cout << i << endl;
         }
         i += 1;
